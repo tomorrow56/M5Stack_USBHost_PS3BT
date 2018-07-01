@@ -139,7 +139,7 @@ void loop() {
         Serial.print(AnalogBtnL2);
 
         M5.Lcd.print(F("L2: "));
-        Serial.print(AnalogBtnL2);
+        M5.Lcd.print(AnalogBtnL2);
         
         if (PS3.PS3Connected) {
           Serial.print(F("\tR2: "));
